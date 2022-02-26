@@ -1,4 +1,4 @@
-# parse κινήσεων με το re, εύρεση πλήθους κινήσεων
+# parse κινήσεων με το re, εύρεση πλήθους κινήσεων, απομόνωση κινήσεων
 import re
 
 moves = """1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 {This opening is called the Ruy Lopez.}
@@ -10,10 +10,11 @@ hxg5 29. b3 Ke6 30. a3 Kd6 31. axb4 cxb4 32. Ra5 Nd5 33. f3 Bc8 34. Kf2 Bf5
 35. Ra7 g6 36. Ra6+ Kc5 37. Ke1 Nf4 38. g3 Nxh3 39. Kd2 Kb5 40. Rd6 Kc5 41. Ra6     
 Nf2 42. g4 Bd3 43. Re6 1/2-1/2"""
 
-
+# εύρεση πλήθους κινήσεων
 res1 = re.findall(r'(\d+)\.', moves)
 print(f'Πλήθος κινήσεων = {res1[-1]}')
 
+# απομόνωση κινήσεων
 for m, w, b in re.findall(r'(\d+)\.\s(\S+)\s+(\S+)', moves):
     print(f'{m} {w}, {b}')
     

@@ -24,3 +24,4 @@
 **Interesting**
 
 * http://www.picochess.org/
+* https://regexr.com/
