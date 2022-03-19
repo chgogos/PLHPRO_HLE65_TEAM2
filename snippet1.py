@@ -8,7 +8,7 @@ class ChessGame:
 
 the_game = ChessGame()
 
-with open("19921104-r29-fischer-spassky.pgn", "r") as fp:
+with open("games/19921104-r29-fischer-spassky.pgn", "r") as fp:
     in_moves_data = False
     moves = ""
     for line in fp:

@@ -5,7 +5,7 @@ import chess.pgn
 import chess.svg
 
 
-pgn = open("19921104-r29-fischer-spassky.pgn")
+pgn = open("games/19921104-r29-fischer-spassky.pgn")
 
 first_game = chess.pgn.read_game(pgn)
 
