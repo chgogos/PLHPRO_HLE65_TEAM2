@@ -28,9 +28,7 @@ def user_demo():
         print(f"{m} move, white: {w}, black: {b}")
         input("Press Enter to continue...")
     
-    
-
 if __name__=="__main__":
-    # demo()
-    user_demo()  
+    demo()
+    # user_demo()  
     
