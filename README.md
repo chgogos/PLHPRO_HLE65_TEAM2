@@ -59,7 +59,9 @@
 * [snippet2.py](./snippet2.py) - parse κινήσεων με το re, εύρεση πλήθους κινήσεων παιχνιδιού
 * [snippet3.py](./snippet3.py) - ανάγνωση αρχείου pgn με το module python-chess, εμφάνιση στοιχείων αγώνα και εξέλιξης του ταμπλό στη γραμμή εντολών
 * [snippet4.py](./snippet4.py) - ανάγνωση αρχείου pgn με το module python-chess, αποθήκευση του τελικού ταμπλό του αγώνα ως αρχείο svg
-* [scratchpad.ipynb](./scratchpad.ipynb) - jupyter notebook με διάφορα αποσπάσματα κώδικα
+* [nb1.ipynb](./nb1.ipynb) - jupyter notebook με αποσπάσματα κώδικα (python-chess)
+* [nb2.ipynb](./nb2.ipynb) - jupyter notebook με διάφορα αποσπάσματα κώδικα (ανάγνωση αρχείου και re)
+* [5_1_sol_oop.py](./5_1_sol_oop.py) - παράδειγμα λίστας με scrollbar 
 
 ---
 
