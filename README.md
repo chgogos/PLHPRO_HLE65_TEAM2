@@ -50,6 +50,7 @@
 
 **Ενδιαφέροντα**
 
+* https://github.com/mbiesiad/awesome-chess
 * http://www.picochess.org/
 
 
